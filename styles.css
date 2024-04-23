@@ -142,3 +142,27 @@ body {
   max-width: 600px;
   margin: 0 auto;
 }
+
+.cta--div {
+  padding: 96px;
+  display: flex;
+}
+
+.cta--text {
+  background-color: #3882f6;
+  display: flex;
+  padding: 30px 96px;
+  margin: 0 auto;
+  border-radius: 0.5em;
+  color: #e5e7eb;
+  gap: 40px;
+}
+
+.cta--text button {
+  align-self: center;
+  padding: 5px 20px;
+  color: #e5e7eb;
+  background-color: #3882f6;
+  border: 2px solid #e5e7eb;
+  border-radius: 0.3em;
+}
