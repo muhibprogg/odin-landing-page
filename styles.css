@@ -12,7 +12,7 @@ body {
 .header {
   background-color: #1f2937;
   display: flex;
-  padding: 10px 96px;
+  padding: 20px 96px;
   justify-content: space-between;
 }
 
@@ -39,6 +39,7 @@ body {
   display: flex;
   gap: 20px;
   justify-content: center;
+  padding-bottom: 60px;
 }
 
 .hero__text h2 {
@@ -80,4 +81,41 @@ body {
   color: #e5e7eb;
   padding: 5px 20px;
   font-weight: boldr;
+}
+
+.info {
+  padding: 40px 96px;
+}
+
+.info h2 {
+  font-size: 36px;
+  font-weight: 900;
+  color: 1f2937;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.cards {
+  padding: 0 96px;
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card__box {
+  height: 100px;
+  width: 100px;
+  border: 4px double #3882f6;
+  border-radius: 0.5em;
+  margin-bottom: 10px;
+}
+
+.card__text {
+  text-align: center;
 }
