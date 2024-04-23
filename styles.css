@@ -84,7 +84,7 @@ body {
 }
 
 .info {
-  padding: 40px 96px;
+  padding: 60px 96px;
 }
 
 .info h2 {
@@ -99,6 +99,7 @@ body {
   padding: 0 96px;
   display: flex;
   gap: 20px;
+  margin-bottom: 40px;
 }
 
 .card {
@@ -118,4 +119,26 @@ body {
 
 .card__text {
   text-align: center;
+}
+
+.testimonial {
+  background-color: #e5e7eb;
+  padding: 80px 96px;
+}
+
+.testimonial__text {
+  width: 70%;
+  max-width: 600px;
+  margin: 0 auto;
+  font-style: italic;
+  font-size: 26px;
+  font-weight: 400;
+}
+
+.testimonial__author {
+  text-align: right;
+  font-weight: bold;
+  width: 70%;
+  max-width: 600px;
+  margin: 0 auto;
 }
